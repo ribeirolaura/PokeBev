@@ -39,9 +39,6 @@ function Berry  ({name}: {name:string})  {
     //Resposta quando temos a informação
     
   return (
-    <div>
-
-      <div>
       <Card className={styles.default.card1}>
         <BerryImage name={berries.item.name} url={berries.item.url} />
 
@@ -61,10 +58,7 @@ function Berry  ({name}: {name:string})  {
           />
         </Card.Body>
       </Card>
-       <br />
-      </div>
-      
-    </div>  
+       
   ) 
   }
 }

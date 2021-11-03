@@ -20,7 +20,7 @@ function Berries() {
 
   return (
     
-    <div>
+    <div className="justify-content-center">
       <h1>Berries</h1>
       <div className={styles.BerriesList}>
         {
